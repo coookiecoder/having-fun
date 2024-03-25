@@ -9,18 +9,10 @@
         <title>Not Found</title>
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="404.html">Template</a></li>
-                <li><a href="about.php">About</a></li>
-            </ul>
-        </nav>
+        <?php include "../html/nav.html" ?>
         <main>
             <h1 class="error">404 Error</h1>
         </main>
-        <footer>
-            template
-        </footer>
+        <?php include "../html/footer.html" ?>
     </body>
 </html>

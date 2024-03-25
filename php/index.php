@@ -13,8 +13,6 @@
         <main>
             Content goes here
         </main>
-        <footer>
-            template
-        </footer>
+        <?php include "../html/footer.html" ?>
     </body>
 </html>
