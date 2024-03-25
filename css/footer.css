@@ -1,0 +1,15 @@
+footer {
+    height: 150px;
+    margin-top: auto;
+    color: lightgrey;
+    background-color: #424242;
+    width: 100%;
+}
+
+footer:hover {
+    height: 150px;
+    margin-top: auto;
+    color: white;
+    background-color: #424242;
+    width: 100%;
+}
