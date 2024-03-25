@@ -9,15 +9,9 @@
         <title>Home</title>
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="404.html">Template</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
+        <?php include "../html/nav.html" ?>
         <main>
-            About me heu go fuck yourself you weirdo
+            Content goes here
         </main>
         <footer>
             template

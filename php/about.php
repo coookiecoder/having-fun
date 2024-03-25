@@ -11,13 +11,13 @@
     <body>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="404.html">Template</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="404.php">Template</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
         <main>
-            Content goes here
+            About me heu go fuck yourself you weirdo
         </main>
         <footer>
             template
