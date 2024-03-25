@@ -11,7 +11,7 @@
     <body>
         <?php include "../html/nav.html" ?>
         <main>
-            Content goes here
+            <div class="title">Welcome</div>
         </main>
         <?php include "../html/footer.html" ?>
     </body>
