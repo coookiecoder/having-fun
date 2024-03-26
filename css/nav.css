@@ -3,14 +3,19 @@
     --UserNavColorSecondary: white;
 }
 
+body {
+    background-color: var(--UserNavColorPrimary);
+    padding: 0;
+    margin: 0;
+}
+
 nav {
     padding: 0;
     background-color: var(--UserNavColorPrimary);
-    min-height: 100vh;
     min-width: 160px;
     width: 15%;
     position: absolute;
-    display: flex;
+    display: block;
 }
 
 nav > ul {

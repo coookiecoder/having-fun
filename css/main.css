@@ -3,15 +3,18 @@
     --UserMainColorSecondary: grey;
 }
 
+body {
+    background-color: var(--UserMainColorPrimary);
+}
+
 main {
-    margin: 0;
     display: block;
     align-items: center;
     justify-content: center;
     background-color: var(--UserMainColorSecondary);
     min-height: 100vh;
     width: 85%;
-    padding-left: max(160px, 15%);
+    margin: 0 0 0 max(160px, 15%);
 }
 
 h1 {
@@ -24,6 +27,12 @@ h2 {
 
 h3 {
     margin: 0;
+}
+
+pre {
+    text-wrap: wrap;
+    margin: 0;
+    padding: 10px;
 }
 
 main > div[class=title] {
@@ -39,6 +48,31 @@ main > div[class=content] {
     margin: 0;
     color: var(--UserMainColorPrimary);
     font-family: 'Comic Sans MS',monospace;
+}
+
+main > div > div[class=part_title] {
+    padding-top: 16px;
+    padding-left: 32px;
+    margin: 0;
+    color: var(--UserMainColorPrimary);
+    font-family: 'Comic Sans MS',monospace;
+    text-decoration: underline 2px;
+}
+
+main > div > div[class=code_title] {
+    max-width: 95%;
+    margin-top: 16px;
+    margin-left: 32px;
+    color: grey;
+    background-color: #4f4f4f;
+
+}
+
+main > div > div[class=code] {
+    max-width: 95%;
+    margin-left: 32px;
+    color: grey;
+    background-color: #2f2f2f;
 }
 
 main > div[class=error] {

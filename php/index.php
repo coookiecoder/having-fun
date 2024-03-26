@@ -14,7 +14,7 @@
             <div class="title"><h1>Welcome</h1></div>
             <div class="content"><h3>Welcome to the main page of the site</h3></div>
             <div class="content"><h3>This website is only for fun don't expect much xD</h3></div>
-            <div class="content"><h3>But feel free to reuse the source code on <a href="https://github.com/coookiecoder/having-fun">github</a></h3></div>
+            <div class="content"><h3>But feel free to reuse the source code on <a href="https://github.com/coookiecoder/having-fun">GitHub</a></h3></div>
         </main>
         <?php include "../html/footer.html" ?>
     </body>
