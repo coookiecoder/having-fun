@@ -22,6 +22,7 @@ nav > ul {
     color: var(--UserNavColorSecondary);
     padding-left: 32px;
     margin-top: 16px;
+    width: 70%;
 }
 
 nav > ul > li {
@@ -39,6 +40,7 @@ nav > ul > li > a > h2 {
     background-color: var(--UserNavColorPrimary);
     border: 4px solid var(--UserNavColorPrimary);
     border-radius: 10px;
+    width: 80%;
     transition-duration: 0.5s;
 }
 

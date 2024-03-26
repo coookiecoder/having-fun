@@ -30,6 +30,12 @@
                 <div class="code_title"><pre>set_get.tpp</pre></div>
                 <div class="code"><pre><?php echo htmlentities(file_get_contents("../Matrix/set_get.tpp")) ?></pre></div>
             </div>
+            <div class="content"><h3>Finally, before starting the first exercise let do some conversion</h3></div>
+            <div id="converter">
+                <div class="part_title"><h3>Here are the converter function :</h3></div>
+                <div class="code_title"><pre>converter.tpp</pre></div>
+                <div class="code"><pre><?php echo htmlentities(file_get_contents("../Matrix/converter.tpp")) ?></pre></div>
+            </div>
         </main>
         <?php include "../html/footer.html" ?>
     </body>
