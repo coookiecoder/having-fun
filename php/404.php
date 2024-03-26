@@ -11,7 +11,7 @@
     <body>
         <?php include "../html/nav.html" ?>
         <main>
-            <h1 class="error">404 Error</h1>
+            <div class="error"><h1>404 Error</h1></div>
         </main>
         <?php include "../html/footer.html" ?>
     </body>

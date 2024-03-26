@@ -1,15 +1,68 @@
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: grey;
-    min-height: 100vh;
-    width: 85%;
-    padding-left: 15%;
+:root {
+    --UserMainColorPrimary: #f6a843;
+    --UserMainColorSecondary: grey;
 }
 
-main > h1[class=error] {
+main {
+    margin: 0;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--UserMainColorSecondary);
+    min-height: 100vh;
+    width: 85%;
+    padding-left: max(160px, 15%);
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+main > div[class=title] {
+    padding-left: 32px;
+    padding-top: 32px;
+    margin: 0;
+    color: var(--UserMainColorPrimary);
+    font-family: 'Comic Sans MS',monospace;
+}
+
+main > div[class=content] {
+    padding-left: 32px;
+    margin: 0;
+    color: var(--UserMainColorPrimary);
+    font-family: 'Comic Sans MS',monospace;
+}
+
+main > div[class=error] {
     margin: 0;
     color: black;
     font-family: 'Comic Sans MS',monospace;
+}
+
+main > div > h3 > a {
+    margin: 0;
+    text-decoration: none;
+    color: var(--UserMainColorPrimary);
+    background-color: var(--UserMainColorSecondary);
+    border: 1px solid var(--UserMainColorSecondary);
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+main > div > h3 > a:hover {
+    margin: 0;
+    text-decoration: none;
+    color: var(--UserMainColorSecondary);
+    background-color: var(--UserMainColorPrimary);
+    border: 1px solid var(--UserMainColorPrimary);
+    border-radius: 10px;
+    transition-duration: 0.5s;
 }
